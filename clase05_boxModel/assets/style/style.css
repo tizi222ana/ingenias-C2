@@ -1,0 +1,38 @@
+body {
+  background-color: rgba(209, 209, 128, 0.966);
+  color: rgb(20, 18, 20);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  margin: 20px  40px ;
+  padding: 10px;
+
+  background-color: rgb(165, 42, 99);
+
+  border: 20px rgb(19, 18, 18); 
+  border-style: groove;
+  border-radius: 20px;
+  
+ 
+ 
+  width: 200px;
+  height: 100%
+
+}
+.CONTENEDOR{
+  border: solid 1px rgb(55, 140, 155);
+  padding: 5px;
+  display: inline-block;
+  font-size: 32px;
+  font-family: 'Times New Roman', Times, serif;
+
+width: 100px;
+height: 100px;
+
+overflow: scroll;
+
+
+}

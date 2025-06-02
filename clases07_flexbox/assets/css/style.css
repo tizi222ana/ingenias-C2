@@ -1,0 +1,121 @@
+body {
+  background-color: black;
+  color: aliceblue;
+
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  margin: 20px;
+}
+
+.boxes1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.boxes2 {
+  display: flex;
+  justify-content: space-between;
+}
+.boxes3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.boxes4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.boxes5 {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: end;
+  height: 700px;
+}
+
+.alingItems {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 500px;
+  border: 3px double darkred;
+}
+
+.alingItems div {
+  text-align: center;
+}
+
+.presentacion {
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  border: 6px rgb(119, 95, 54);
+  border-style: outset;
+  align-items: center;
+
+  background-image: url(../css/img/8bf2a504-abee-4027-8588-768651621df4.jpeg),
+    url(../css/img/read\ the\ cat\ and\ learn\ the\ secret.jpeg);
+
+  background-size: 50% 100%, 50% 100%;
+  background-repeat: no-repeat;
+  background-position: left center, right center;
+}
+
+.contenido {
+  color: rgb(231, 84, 153);
+  padding: 1em;
+}
+
+menu {
+  background-color: rgb(228, 183, 141);
+  width: 10em;
+  
+}
+
+
+menu li{
+  padding: 3em;
+  list-style: none;
+
+}
+
+menu a{
+  color: rgb(126, 37, 78);
+  text-decoration: underline;
+  font-size: larger;
+
+}
+
+menu a :hover{
+  color: rgb(247, 239, 240);
+}
+
+menu ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.padre{
+display: flex;
+}
+
+header{
+margin: 10px 10px;
+}

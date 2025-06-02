@@ -1,0 +1,130 @@
+:root {
+  ---color-fondo: #e3e7d3;
+  ---color-primario: #896978;
+  ---color-secundario: #0d184c;
+  ---color-terciario: #3c6e71;
+  ---color-cuartenario: #25291c;
+  ---color-quintonario: #19405c;
+  ---color-sextorio: #50680e52;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: var(---color-fondo);
+  color: var(---color-cuartenario);
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: 40px;
+  color: var(---color-secundario);
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 21px;
+  background-color: var(---color-sextorio);
+  border-radius: 20px;
+  margin: 10px 0px;
+}
+
+a {
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+  color: var(---color-secundario);
+  padding: 2.5px;
+}
+
+a :hover {
+  border: 2px solid var(---color-primari);
+}
+
+a :visited {
+  color: var(---color-primario);
+  text-decoration: underline;
+}
+
+@media (min-width: 578px) {
+  h1 {
+    font-size: 40px;
+  }
+  .padre {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(---color-primario);
+    margin: 20px 2px;
+    border-radius: 25px;
+  }
+  a {
+    font-size: 24px;
+    padding: 20px 0px;
+  }
+  p {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .padre {
+    gap: 10px;
+    padding: 30px;
+    border: 5px solid var(---color-secundario);
+  }
+  a {
+    font-size: 30px;
+    padding: 20px 0px;
+  }
+  p{
+    font-size: 30px;
+    padding: 20px;
+    margin: 10px;
+    border: 3px solid var(---color-cuartenario);
+  }
+
+
+}
+
+/*
+a :hover {
+  font-weight: bold;
+  background-color: rgb(217, 187, 249);
+  color: rgb(65, 148, 49);
+  text-decoration: underline;
+}
+
+a :link {
+  text-decoration: none;
+  color: cadetblue;
+}
+
+a:visited {
+  color: rgb(231, 108, 211);
+}
+a :active {
+  color: rgb(45, 33, 150);
+}
+.hijo:hover {
+  background-color: rgb(7, 8, 68);
+}
+
+.padre div :nth-child(2) {
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}

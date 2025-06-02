@@ -1,0 +1,28 @@
+body {
+    background-color: rgba(48, 20, 4, 0.959);
+    color:rgb(151, 109, 125);
+    border: 2px solid rgb(182, 23, 103);
+}
+
+
+h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(49, 39, 21);
+    font-size: xx-large;
+    text-align: center;
+}
+
+p{
+    color: rgb(54, 50, 37);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+div{
+    background-color: palevioletred;
+}
+
+.lorem1{
+    background-color:rgb(128, 52, 75) ;
+    text-align: left;
+}
